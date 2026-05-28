@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Futures Trading Roadmap – CoinDCX માટે Entry/Exit ગાઈડ ગુજરાતીમાં</title>
+  <link rel="icon" type="image/png" href="./favicon.ico"> 
+  <style id="mcp-host-variables">:root {
+  --color-background-primary: light-dark(rgba(255, 255, 255, 1), rgba(48, 48, 46, 1));
+  --color-background-secondary: light-dark(rgba(245, 244, 237, 1), rgba(38, 38, 36, 1));
+  --color-background-tertiary: light-dark(rgba(250, 249, 245, 1), rgba(20, 20, 19, 1));
+  --color-background-inverse: light-dark(rgba(20, 20, 19, 1), rgba(250, 249, 245, 1));
+  --color-background-ghost: light-dark(rgba(255, 255, 255, 0), rgba(48, 48, 46, 0));
+  --color-background-info: light-dark(rgba(214, 228, 246, 1), rgba(37, 62, 95, 1));
+  --color-background-danger: light-dark(rgba(247, 236, 236, 1), rgba(96, 42, 40, 1));
+  --color-background-success: light-dark(rgba(233, 241, 220, 1), rgba(27, 70, 20, 1));
+  --color-background-warning: light-dark(rgba(246, 238, 223, 1), rgba(72, 58, 15, 1));
+  --color-background-disabled: light-dark(rgba(255, 255, 255, 0.5), rgba(48, 48, 46, 0.5));
+  --color-text-primary: light-dark(rgba(20, 20, 19, 1), rgba(250, 249, 245, 1));
+  --color-text-secondary: light-dark(rgba(61, 61, 58, 1), rgba(194, 192, 182, 1));
+  --color-text-tertiary: light-dark(rgba(115, 114, 108, 1), rgba(156, 154, 146, 1));
+  --color-text-inverse: light-dark(rgba(255, 255, 255, 1), rgba(20, 20, 19, 1));
+  --color-text-info: light-dark(rgba(50, 102, 173, 1), rgba(128, 170, 221, 1));
+  --color-text-danger: light-dark(rgba(127, 44, 40, 1), rgba(238, 136, 132, 1));
+  --color-text-success: light-dark(rgba(38, 91, 25, 1), rgba(122, 185, 72, 1));
+  --color-text-warning: light-dark(rgba(90, 72, 21, 1), rgba(209, 160, 65, 1));
+  --color-text-disabled: light-dark(rgba(20, 20, 19, 0.5), rgba(250, 249, 245, 0.5));
+  --color-text-ghost: light-dark(rgba(115, 114, 108, 0.5), rgba(156, 154, 146, 0.5));
+  --color-border-primary: light-dark(rgba(31, 30, 29, 0.4), rgba(222, 220, 209, 0.4));
+  --color-border-secondary: light-dark(rgba(31, 30, 29, 0.3), rgba(222, 220, 209, 0.3));
+  --color-border-tertiary: light-dark(rgba(31, 30, 29, 0.15), rgba(222, 220, 209, 0.15));
+  --color-border-inverse: light-dark(rgba(255, 255, 255, 0.3), rgba(20, 20, 19, 0.15));
+  --color-border-ghost: light-dark(rgba(31, 30, 29, 0), rgba(222, 220, 209, 0));
+  --color-border-info: light-dark(rgba(70, 130, 213, 1), rgba(70, 130, 213, 1));
+  --color-border-danger: light-dark(rgba(167, 61, 57, 1), rgba(205, 92, 88, 1));
+  --color-border-success: light-dark(rgba(67, 116, 38, 1), rgba(89, 145, 48, 1));
+  --color-border-warning: light-dark(rgba(128, 92, 31, 1), rgba(168, 120, 41, 1));
+  --color-border-disabled: light-dark(rgba(31, 30, 29, 0.1), rgba(222, 220, 209, 0.1));
+  --color-ring-primary: light-dark(rgba(20, 20, 19, 0.7), rgba(250, 249, 245, 0.7));
+  --color-ring-secondary: light-dark(rgba(61, 61, 58, 0.7), rgba(194, 192, 182, 0.7));
+  --color-ring-inverse: light-dark(rgba(255, 255, 255, 0.7), rgba(20, 20, 19, 0.7));
+  --color-ring-info: light-dark(rgba(50, 102, 173, 0.5), rgba(128, 170, 221, 0.5));
+  --color-ring-danger: light-dark(rgba(167, 61, 57, 0.5), rgba(205, 92, 88, 0.5));
+  --color-ring-success: light-dark(rgba(67, 116, 38, 0.5), rgba(89, 145, 48, 0.5));
+  --color-ring-warning: light-dark(rgba(128, 92, 31, 0.5), rgba(168, 120, 41, 0.5));
+  --font-sans: Anthropic Sans, sans-serif;
+  --font-mono: ui-monospace, monospace;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-text-xs-size: 12px;
+  --font-text-sm-size: 14px;
+  --font-text-md-size: 16px;
+  --font-text-lg-size: 20px;
+  --font-heading-xs-size: 12px;
+  --font-heading-sm-size: 14px;
+  --font-heading-md-size: 16px;
+  --font-heading-lg-size: 20px;
+  --font-heading-xl-size: 24px;
+  --font-heading-2xl-size: 28px;
+  --font-heading-3xl-size: 36px;
+  --font-text-xs-line-height: 1.4;
+  --font-text-sm-line-height: 1.4;
+  --font-text-md-line-height: 1.4;
+  --font-text-lg-line-height: 1.25;
+  --font-heading-xs-line-height: 1.4;
+  --font-heading-sm-line-height: 1.4;
+  --font-heading-md-line-height: 1.4;
+  --font-heading-lg-line-height: 1.25;
+  --font-heading-xl-line-height: 1.25;
+  --font-heading-2xl-line-height: 1.1;
+  --font-heading-3xl-line-height: 1;
+  --border-radius-xs: 4px;
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 10px;
+  --border-radius-xl: 12px;
+  --border-radius-full: 9999px;
+  --border-width-regular: 0.5px;
+  --shadow-hairline: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}</style>
+
+<style>
+.section { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 1rem; }
+.badge { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: var(--border-radius-md); font-weight: 500; }
+.badge-green { background: #EAF3DE; color: #3B6D11; }
+.badge-amber { background: #FAEEDA; color: #854F0B; }
+.badge-red { background: #FCEBEB; color: #A32D2D; }
+.coin-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-top: 10px; }
+.coin-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 12px; text-align: center; }
+.coin-name { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
+.coin-sub { font-size: 12px; color: var(--color-text-secondary); margin-top: 3px; }
+.step { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+.step-num { min-width: 28px; height: 28px; border-radius: 50%; background: #CECBF6; color: #3C3489; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 500; }
+.step-content { font-size: 14px; color: var(--color-text-primary); line-height: 1.6; }
+.step-title { font-weight: 500; font-size: 14px; }
+.warn { background: #FAEEDA; border-left: 3px solid #EF9F27; border-radius: 0; padding: 10px 14px; font-size: 13px; color: #633806; margin-top: 1rem; }
+h2 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 12px; }
+h3 { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 10px; }
+</style>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+
+
+<h2 style="padding-top:1rem">🔍 ક્રિપ્ટો ફ્યુચર ટ્રેડિંગ — શ્રેષ્ઠ કોઈન કેવી રીતે શોધવો?</h2>
+
+<div class="section">
+  <h3>📊 સ્ટેપ-બાય-સ્ટેપ પ્રક્રિયા</h3>
+  <div class="step">
+    <div class="step-num">1</div>
+    <div class="step-content"><span class="step-title">Liquidity (તરલતા) તપાસો</span><br>24 કલાકનું Volume વધુ હોય તે કોઈન ફ્યુચર માટે સારો. BTC, ETH, SOL જેવા coins high liquidity ધરાવે છે.</div>
+  </div>
+  <div class="step">
+    <div class="step-num">2</div>
+    <div class="step-content"><span class="step-title">Open Interest (OI) જુઓ</span><br>OI વધે = market માં રુચિ વધે. Coinglass.com પર OI ડેટા ફ્રી મળે.</div>
+  </div>
+  <div class="step">
+    <div class="step-num">3</div>
+    <div class="step-content"><span class="step-title">Funding Rate ચેક કરો</span><br>Funding Rate + (positive) = Bullish bias. - (negative) = Bearish bias. Extreme values = reversal નો સંકેત.</div>
+  </div>
+  <div class="step">
+    <div class="step-num">4</div>
+    <div class="step-content"><span class="step-title">Technical Analysis કરો</span><br>RSI, MACD, Support/Resistance levels જુઓ. Trend ની direction confirm કર્યા વગર entry ન લો.</div>
+  </div>
+  <div class="step">
+    <div class="step-num">5</div>
+    <div class="step-content"><span class="step-title">News & Sentiment ટ્રૅક કરો</span><br>Bitcoin ના moves બધા alts ને affect કરે. CryptoNews, Twitter/X, Reddit monitor કરો.</div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>🏆 ફ્યુચર ટ્રેડિંગ માટે લોકપ્રિય Coins</h3>
+  <div class="coin-grid">
+    <div class="coin-card">
+      <div class="coin-name">₿ Bitcoin</div>
+      <div class="coin-sub">BTC/USDT</div>
+      <div style="margin-top:6px"><span class="badge bg-success">સૌથી Safe</span></div>
+    </div>
+    <div class="coin-card">
+      <div class="coin-name">Ξ Ethereum</div>
+      <div class="coin-sub">ETH/USDT</div>
+      <div style="margin-top:6px"><span class="badge bg-primary">High Volume</span></div>
+    </div>
+    <div class="coin-card">
+      <div class="coin-name">◎ Solana</div>
+      <div class="coin-sub">SOL/USDT</div>
+      <div style="margin-top:6px"><span class="badge bg-info">Volatile</span></div>
+    </div>
+    <div class="coin-card">
+      <div class="coin-name">🔵 BNB</div>
+      <div class="coin-sub">BNB/USDT</div>
+      <div style="margin-top:6px"><span class="badge bg-success">Stable</span></div>
+    </div>
+    <div class="coin-card">
+      <div class="coin-name">🟣 XRP</div>
+      <div class="coin-sub">XRP/USDT</div>
+      <div style="margin-top:6px"><span class="badge bg-warning">Mid Risk</span></div>
+    </div>
+    <div class="coin-card">
+      <div class="coin-name">🐕 DOGE</div>
+      <div class="coin-sub">DOGE/USDT</div>
+      <div style="margin-top:6px"><span class="badge bg-danger">High Risk</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>🛠 ઉપયોગી Tools</h3>
+  <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; font-size:13px;">
+    <div style="padding:8px; background:var(--color-background-secondary); border-radius:var(--border-radius-md);"><i class="ti ti-chart-bar" aria-hidden="true"></i> <strong>Coinglass.com</strong><br><span style="color:var(--color-text-secondary)">OI, Liquidations, Funding Rate</span></div>
+    <div style="padding:8px; background:var(--color-background-secondary); border-radius:var(--border-radius-md);"><i class="ti ti-chart-line" aria-hidden="true"></i> <strong>TradingView.com</strong><br><span style="color:var(--color-text-secondary)">Charts, Technical Analysis</span></div>
+    <div style="padding:8px; background:var(--color-background-secondary); border-radius:var(--border-radius-md);"><i class="ti ti-currency-bitcoin" aria-hidden="true"></i> <strong>Binance Futures</strong><br><span style="color:var(--color-text-secondary)">Trading Platform</span></div>
+    <div style="padding:8px; background:var(--color-background-secondary); border-radius:var(--border-radius-md);"><i class="ti ti-news" aria-hidden="true"></i> <strong>CoinMarketCap</strong><br><span style="color:var(--color-text-secondary)">Market Data, Rankings</span></div>
+  </div>
+</div>
+
+<div class="warn">
+  ⚠️ <strong>મહત્વની ચેતવણી:</strong> ક્રિપ્ટો ફ્યુચર ટ્રેડિંગ ખૂબ જ જોખમી છે. હંમેશા Stop Loss લગાવો. ક્યારેય આખી capital એક trade માં ન મૂકો. ભારતમાં crypto gains પર 30% tax + 1% TDS લાગે છે.
+</div>
+<div style="height:1rem"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
